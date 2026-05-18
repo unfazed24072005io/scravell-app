@@ -1,0 +1,7 @@
+workflows:
+  flutter-workflow:
+    name: Flutter Build
+    scripts:
+      - flutter build apk --release  # instead of --split-per-abi or aab
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk

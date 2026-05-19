@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^2.3.0
   google_fonts: ^6.1.0
 
 dev_dependencies:
@@ -20,3 +21,17 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/SFPRODISPLAYREGULAR.OTF
+          weight: 400
+        - asset: assets/fonts/SFPRODISPLAYBOLD.OTF
+          weight: 700
+
+    - family: DMSans
+      fonts:
+          - asset: assets/fonts/DMSans-Variable.ttf
+            style: normal
+          - asset: assets/fonts/DMSans-Italic-Variable.ttf
+            style: italic
